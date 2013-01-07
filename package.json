@@ -1,0 +1,39 @@
+{
+  "name": "jugg",
+  "description": "juggler CLI Tool",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jamuhl/juggler-jugg",
+  "author": {
+    "name": "Jan Mühlemann (@jamuhl)",
+    "email": "jan.muehlemann@gmail.com",
+    "url": "https://twitter.com/jamuhl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jamuhl/juggler-jugg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamuhl/juggler-jugg/issues"
+  },
+  "dependencies": {      
+      "grunt": "*"
+    , "grunt-contrib": ">=0.1.0"
+    , "grunt-contrib-jade": "https://github.com/Dignifiedquire/grunt-contrib-jade/tarball/multiple"
+    , "grunt-shell": ">=0.1.0"
+    , "grunt-rigger": ">=0.1.0"
+    , "express": ">= 0.0.1"
+    , "zipstream": ">=0.2.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": ["gruntplugin", "juggler"],
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "main": "grunt.js",
+  "bin": "bin/jugg",
+  "scripts": {
+    "test": "grunt test"
+  }
+}

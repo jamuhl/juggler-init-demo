@@ -1,0 +1,3 @@
+[submodule "tasks/init/juggler"]
+	path = tasks/init/juggler
+	url = git@github.com:jamuhl/juggler.git
