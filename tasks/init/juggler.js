@@ -21,7 +21,7 @@ exports.template = function(grunt, init, done) {
 
   // Actually copy (and process). files.
   init.copyAndProcess(files, {}, {
-    noProcess: [ "www/**" ]
+    noProcess: [ "www/**", "android/**", "ios/**", "tasks/**" ]
   });
 
   // All done!
