@@ -12,7 +12,3 @@ npm-debug.log
 # Can also ignore all directories and files in a directory.
 node_modules
 node_modules/**/*
-
-# exclude generated assets
-boiler
-boiler/**/*
