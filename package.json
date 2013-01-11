@@ -1,7 +1,7 @@
 {
   "name": "juggl",
   "description": "juggler CLI Tool",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/jamuhl/juggler-juggl",
   "author": {
     "name": "Jan Mühlemann (@jamuhl)",
