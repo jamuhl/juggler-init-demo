@@ -1,4 +1,0 @@
-
-[submodule "root"]
-	path = root
-	url = git@github.com:jamuhl/juggler.git
