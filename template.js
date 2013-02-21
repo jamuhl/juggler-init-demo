@@ -7,7 +7,7 @@ exports.warnOn = "*";
 
 exports.template = function(grunt, init, done) {
 
-  var _ = grunt.utils._;
+  var _ = grunt.util._;
 
   // Files to copy (and process).
   var files = init.filesToCopy({});
